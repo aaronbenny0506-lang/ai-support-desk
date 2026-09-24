@@ -3,8 +3,8 @@
 AI Support Desk
 ================
 Sends each customer support ticket to an LLM (Claude) and turns the raw
-response into structured, usable information: category, urgency, and a
-suggested action — instead of leaving a human to re-read raw text.
+response into structured, usable information: category, urgency and a
+suggested action, instead of leaving a human to re-read raw text.
 
 Usage:
     python support_desk.py
