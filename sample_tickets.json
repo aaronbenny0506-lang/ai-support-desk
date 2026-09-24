@@ -1,0 +1,37 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "subject": "Charged twice for my subscription",
+    "message": "Hi, I just noticed TWO charges of $29.99 on my card this month for the same Pro plan. This is the second time this has happened and honestly I'm getting pretty frustrated. Can someone refund the duplicate charge ASAP? I need this sorted before my statement closes on Friday."
+  },
+  {
+    "ticket_id": "T-1002",
+    "subject": "App crashes when exporting PDF",
+    "message": "Every time I try to export a report as a PDF from the dashboard, the app freezes for about 10 seconds and then crashes completely. I'm on Chrome, Windows 11, latest version of your app. Happens 100% of the time, tried on two different reports. Here's the console error: 'TypeError: Cannot read properties of undefined (reading map) at exportPDF.js:142'."
+  },
+  {
+    "ticket_id": "T-1003",
+    "subject": "Question about team seats",
+    "message": "Hey there! Quick question - if I'm on the Business plan with 10 seats and I only use 7, do the unused seats roll over or carry any credit, or do they just expire at the end of the billing cycle? Trying to plan our budget for next quarter. No rush on this, thanks!"
+  },
+  {
+    "ticket_id": "T-1004",
+    "subject": "Can't log in - account locked",
+    "message": "I've been locked out of my account for 2 hours now. It says 'too many failed attempts' but I've only tried my password twice, I promise! I have a client presentation in 30 minutes and all my files are in there. Please help immediately, this is urgent!!"
+  },
+  {
+    "ticket_id": "T-1005",
+    "subject": "Feature request: dark mode",
+    "message": "Loving the product so far! One small suggestion - any chance you'd consider adding a dark mode option? My eyes would thank you during late-night work sessions. Not a big deal either way, just thought I'd mention it. Keep up the great work!"
+  },
+  {
+    "ticket_id": "T-1006",
+    "subject": "Data missing after sync",
+    "message": "This is honestly unacceptable. I synced my workspace last night and this morning THREE of my projects are just... gone. No error message, nothing in the trash, nothing in version history. Weeks of work. I need someone from engineering to look at this today, not a canned response."
+  },
+  {
+    "ticket_id": "T-1007",
+    "subject": "How do I change my billing email?",
+    "message": "Hello, I recently changed jobs and need to update the email address that receives our invoices. Could you point me to where I can do that, or update it on your end? Thank you!"
+  }
+]

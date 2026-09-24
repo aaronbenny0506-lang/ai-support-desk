@@ -1,0 +1,65 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "subject": "Charged twice for my subscription",
+    "category": "billing",
+    "urgency": "high",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1002",
+    "subject": "App crashes when exporting PDF",
+    "category": "technical",
+    "urgency": "medium",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1003",
+    "subject": "Question about team seats",
+    "category": "billing",
+    "urgency": "low",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1004",
+    "subject": "Can't log in - account locked",
+    "category": "account",
+    "urgency": "high",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1005",
+    "subject": "Feature request: dark mode",
+    "category": "feature_request",
+    "urgency": "low",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1006",
+    "subject": "Data missing after sync",
+    "category": "technical",
+    "urgency": "high",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  },
+  {
+    "ticket_id": "T-1007",
+    "subject": "How do I change my billing email?",
+    "category": "billing",
+    "urgency": "medium",
+    "suggested_action": "Route to a human agent for review (LLM classification unavailable).",
+    "source": "fallback_heuristic",
+    "error": "no API client available"
+  }
+]
