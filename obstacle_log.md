@@ -1,4 +1,4 @@
-# Obstacle Log — AI Support Desk
+# Obstacle Log : AI Support Desk
 
 ## 1. No live API access in the build/test environment
 The sandbox I used to write and test this script has no outbound network
@@ -8,7 +8,7 @@ the API here, regardless of whether a key was configured.
 **Fix:** rather than let a network-less run crash or produce nothing,
 `classify_ticket()` retries a few times and then falls back to a small
 rule-based `heuristic_classify()` (simple keyword matching for category and
-urgency) so the rest of the pipeline — parsing, validation, summary
+urgency) so the rest of the pipeline, parsing, validation, summary
 generation — could still be exercised end-to-end. Every result records its
 `"source"` (`"llm"` or `"fallback_heuristic"`) and, when it fell back, the
 `"error"` that caused it, so nothing is silently mislabeled as a real model
@@ -30,7 +30,7 @@ correctly instead of raising.
 
 ## 3. A syntactically valid but semantically wrong response
 Even when `json.loads()` succeeds, the model could return a category or
-urgency value outside the fixed set (e.g. "Billing Issue" instead of
+urgency value outside the fixed set (eg: "Billing Issue" instead of
 "billing"), which would quietly corrupt the summary counts.
 
 **Fix:** added explicit validation after parsing — `category` and
