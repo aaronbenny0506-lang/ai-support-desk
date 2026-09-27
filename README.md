@@ -1,7 +1,7 @@
 # AI Support Desk
 
 Sends customer support tickets to an LLM (Claude) and turns each raw reply
-into structured, usable information — `category`, `urgency` and a
+into structured, usable information, `category`, `urgency` and a
 `suggested_action`, instead of leaving a human to re-read raw text.
 
 ## Files
